@@ -1,0 +1,26 @@
+*:focus {
+    outline: 0;
+}
+
+body {
+    color: #c5c8c6;
+    background-color: #1d1f21;
+}
+
+input[type=text] {
+    border: 0;
+    width: auto;
+}
+
+#inputwrapper {
+    width: 100%;
+    display: flex;
+}
+
+#prefix {
+}
+
+#stdin {
+    background-color: #1d1f21;
+    flex-grow: 1;
+}
