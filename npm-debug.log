@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'esdoc',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /home/lenpai/gits/someWorld_front/package.json
+5 warn package.json @ No repository field.
+6 warn package.json @ No license field.
+7 verbose installManyTop reading scoped package data from /home/lenpai/gits/someWorld_front/node_modules/jspm/package.json
+8 info package.json jspm@0.16.13 license should be a valid SPDX license expression
+9 verbose readDependencies loading dependencies from /home/lenpai/gits/someWorld_front/package.json
+10 silly cache add args [ 'esdoc', null ]
+11 verbose cache add spec esdoc
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'esdoc',
+12 silly cache add   scope: null,
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'esdoc',
+12 silly cache add   spec: '/home/lenpai/gits/someWorld_front/esdoc',
+12 silly cache add   type: 'directory' }
+13 error addLocal Could not install /home/lenpai/gits/someWorld_front/esdoc
+14 verbose stack Error: No name provided in package.json
+14 verbose stack     at /usr/lib/node_modules/npm/lib/cache/add-local.js:61:17
+14 verbose stack     at /usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+14 verbose stack     at checkBinReferences_ (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+14 verbose stack     at final (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+14 verbose stack     at then (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+14 verbose stack     at ReadFileContext.<anonymous> (/usr/lib/node_modules/npm/node_modules/read-package-json/read-json.js:284:20)
+14 verbose stack     at ReadFileContext.callback (/usr/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:76:16)
+14 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:303:13)
+15 verbose cwd /home/lenpai/gits/someWorld_front
+16 error Linux 3.19.0-30-generic
+17 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "esdoc" "--save-dev"
+18 error node v4.2.1
+19 error npm  v2.14.7
+20 error No name provided in package.json
+21 error If you need help, you may report this error at:
+21 error     <https://github.com/npm/npm/issues>
+22 verbose exit [ 1, true ]

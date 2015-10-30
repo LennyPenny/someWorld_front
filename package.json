@@ -14,7 +14,8 @@
     }
   },
   "devDependencies": {
-    "jspm-server": "^0.1.8"
+    "jspm-server": "^0.1.8",
+    "esdoc": "^0.4.1"
   },
   "dependencies": {}
 }
