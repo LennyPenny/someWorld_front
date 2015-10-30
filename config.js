@@ -14,11 +14,13 @@ System.config({
   },
 
   map: {
+    "ascii-art": "npm:ascii-art@0.0.2-alpha",
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
     "core-js": "npm:core-js@1.2.3",
     "escape-html": "npm:escape-html@1.0.3",
     "necolas/normalize.css": "github:necolas/normalize.css@3.0.3",
+    "timer.js": "npm:timer.js@1.0.3",
     "websockets/ws": "github:websockets/ws@0.8.0",
     "ws": "npm:ws@0.8.0",
     "github:jspm/nodelibs-assert@0.1.0": {
@@ -73,6 +75,9 @@ System.config({
     },
     "github:necolas/normalize.css@3.0.3": {
       "css": "github:systemjs/plugin-css@0.1.19"
+    },
+    "npm:ascii-art@0.0.2-alpha": {
+      "fs": "github:jspm/nodelibs-fs@0.1.2"
     },
     "npm:asn1.js@2.2.1": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
