@@ -1,7 +1,6 @@
 {
   "jspm": {
     "dependencies": {
-      "ascii-art": "npm:ascii-art@^0.0.2-alpha",
       "escape-html": "npm:escape-html@^1.0.3",
       "necolas/normalize.css": "github:necolas/normalize.css@^3.0.3",
       "timer.js": "npm:timer.js@^1.0.3",
